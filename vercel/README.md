@@ -26,3 +26,7 @@
 npm install --ignore-scripts
 npx vite build --config vercel/vite.config.ts
 ```
+
+## 变更记录
+
+- 2026-11-12：环境变量改为在项目 Settings → Environment Variables 中配置 `SUPABASE_URL` / `SUPABASE_ANON_KEY`（名称照旧，值用 Publishable key）。
