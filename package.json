@@ -26,7 +26,8 @@
     "lint": "node ./scripts/lint.js",
     "precommit": "node scripts/hooks/run-precommit.js",
     "prepare": "chmod +x .githooks/pre-commit 2>/dev/null; git config core.hooksPath .githooks 2>/dev/null || true",
-    "postinstall": "fullstack-cli action-plugin init"
+    "postinstall": "fullstack-cli action-plugin init",
+    "build:vercel": "vite build --config vercel/vite.config.ts"
   },
   "dependencies": {
     "@lark-apaas/fullstack-nestjs-core": "^1.1.75",
@@ -135,7 +136,8 @@
     "uuid": "11.0.5",
     "vaul": "^1.1.2",
     "vite": "^8",
-    "zod": "^4.3.6"
+    "zod": "^4.3.6",
+    "@vitejs/plugin-react": "^6.3.0"
   },
   "overrides": {
     "dayjs": "^1.11.15",
