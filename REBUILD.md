@@ -1,3 +1,3 @@
-# Rebuild note
+# Rebuild note 2
 
-Trigger a fresh Vercel production build so the updated SUPABASE_URL and SUPABASE_ANON_KEY are baked into the client bundle.
+Second build to bake the corrected SUPABASE_URL into the client bundle.
